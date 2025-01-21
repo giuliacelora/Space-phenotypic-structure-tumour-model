@@ -1,6 +1,6 @@
 # Space-phenotypic-structure-tumour-model
  
-This is the code to compute the bifurcation diagrams in Figure 11 of the paper ["Spatio-temporal modelling of phenotypic heterogeneity in tumour tissues and its impact on radiotherapy treatment"](https://doi.org/10.1016/j.jtbi.2022.111248)
+This is the Jupyter Notebook (Bif_ox.jl) with the code to compute the bifurcation diagrams in Figure 11 of the paper ["Spatio-temporal modelling of phenotypic heterogeneity in tumour tissues and its impact on radiotherapy treatment"](https://doi.org/10.1016/j.jtbi.2022.111248)
 
 The code is implented using Julia Version 1.10.2 and requires the following packages:
 * BifurcatioKit.jl
@@ -10,3 +10,5 @@ The code is implented using Julia Version 1.10.2 and requires the following pack
 * SparseArrays.jl
 * Parameters.jl
 * Setfield.jl
+
+The file (CPDEox.jl) contains additional function used to the define the bifurcation problem.
